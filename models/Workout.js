@@ -20,5 +20,7 @@ module.exports = model('Workout', new Schema({
     reps: Number,
     sets: Number,
     distance: Number
-  }]
-}))
+  }],
+},
+  { typeKey: '$type' }
+  ))
