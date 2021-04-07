@@ -40,7 +40,6 @@ router.get('/workouts/range', (req, res) => Workout.find()
       }
     })
     res.json(totalWorkouts)
-    // res.json(workouts)
   })
   .catch(err => console.log(err))
 )
